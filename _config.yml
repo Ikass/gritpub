@@ -1,6 +1,6 @@
 title: Gritty Publishing
 url: "https://teal-worm.cloudvent.net"
-baseurl: https://grittypublishing.com
+baseurl: "https://grittypublishing.com"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:

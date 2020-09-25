@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hire Me</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/sanitize.css">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+
+      <!-- Navigation -->
+      <header>
+        <nav class="main-nav">
+            <a href="index.html" class="main-nav__logo"><h2>Gritty Publishing</h2></a>
+            <ul>
+                <li><a href="services.html" class="main-nav__item">Services</a></li>
+                <!-- <li class="main-nav__item"><a href="#">Portfolio</a></li> -->
+                <li><a href="blog-post.html" class="main-nav__item">Articles</a></li>
+                <li><a href="about.html" class="main-nav__item">About</a></li>
+                <li><a href="hire.html" class="hire btn-main">Hire Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+        <!-- Contact form section -->
+        <section class="section-article">
+          <div class="content-wrapper">
+              <header class="section-header">
+                  <h2>Hire Me</h2>
+                  <p class="section-description">Get in touch using the contact form below if you are interested in my web development services or have a question.</p>
+              </header>
+
+              <!-- modify this form HTML and place wherever you want your form -->
+
+          <form action="https://formspree.io/mqkgzrlv" method="POST">
+            <label>Your name:</label><br>
+            <input type="text" name="_name" placeholder="Your name"><br>
+            <label>Your email:</label><br>
+            <input type="text" name="_replyto" placeholder="Your email"><br>
+            <label>Your message:</label><br>
+            <textarea name="message" placeholder="Type your message here"></textarea><br>
+            <!-- your other form fields go here -->
+            <input type="hidden" name="_subject" value="GritPub submission!"/>
+            <button class="btn-main btn-main--contact" type="submit">Send Message</button>
+          </form>
+          </div>
+      </section>
+
+
+    <!-- Footer section -->
+    <footer>
+      <section class="section-footer">
+        <div class="wrapper__footer">
+            <div class="footer__card">
+                <h4>Hire Me</h4>
+                <p>Need an effective author platform? Get in touch and let's talk how best to achieve your business goals.</p>
+                <a href="/hire.html" class="btn-main">Contact Me</a>
+            </div>
+            <div class="footer__card">
+                <h4>Sitemap</h4>
+                <ul>
+                  <li><a href="/" class="footer__card--link">Home</a></li>
+                  <li><a href="/services.html" class="footer__card--link">Services</a></li>
+                  <li><a href="/about.html" class="footer__card--link">About</a></li>
+                  <li><a href="/hire.html" class="footer__card--link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__card">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/services.html#Web-Design-Services" class="footer__card--link">Website Design</a></li>
+                    <li><a href="/services.html#Hosting-Maintenance" class="footer__card--link">Hosting & Maintenance</a></li>
+                </ul>
+            </div>
+            <div class="footer__card">
+              <h4>Social Media</h4>
+            </div>
+        </div>
+    </section>
+  </footer>
+  
+</body>
+</html>

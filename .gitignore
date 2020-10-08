@@ -7,7 +7,7 @@ Gemfile.lock
 
 
 ### VSC ###
-gritpub-jekyll.code-workspace
+gritpub.code-workspace
 
 ### MacOS ###
 *.DS_Store

@@ -1,0 +1,172 @@
+---
+layout: default
+title: Services
+permalink: /services/
+---
+
+<!-- Web Design Services section -->
+<section>
+  <!-- Need to refactor the cascade and classes, streamline -->
+  <div class="content-wrapper">
+    <header class="section-header" id="Web-Design-Services">
+      <h2>Website Design for Authors, Freelancers and Solo Business Owners</h2>
+      <p class="section-description">Website development and maintenance services for authors and freelance writers</p>
+    </header>
+
+  <div class="section-feature">
+    <img src="/assets/images/undraw_growth_analytics_8btt.svg" alt="Effective websites">
+    <article>
+      <h3>Effective Websites</h3>
+      <ul>
+        <li>Goal-oriented from the very start. Tailored to meet your business goals.</li>
+        <li>SEO best-practices built-in. Without the need for extra paid plugins.</li>
+        <li>Easy to update, with intuitive user-interface.</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="section-feature">
+    <article>
+      <h3>Reader friendly</h3>
+      <ul>
+        <li>Clean design and layout. Looks good and is easy to navigate.</li>
+        <li>Accessible, mobile optimised and responsive. Can be read by anybody on any device.</li>
+        <li>Comfortable to read, observing typography best practices.</li>
+      </ul>
+    </article>
+    <img src="/assets/images/undraw_Devices_re_dxae.svg" alt="Mobile and responsive website">
+  </div>
+
+  <div class="section-feature">
+    <img src="/assets/images/undraw_fast_loading_0lbh.svg" alt="Fast loading websites">
+    <article>
+      <h3>Fast and Secure</h3>
+      <ul>
+        <li>Static sites. No plugin update hell to break your website. Nothing to hack.</li>
+        <li>Fast to load on any connection and device.</li>
+        <li>SSL and CDN included for added security and performance.</li>
+      </ul>
+    </article>
+  </div>
+        
+  </div>
+</section>
+
+<!-- Web Design services pricing section -->
+<section>
+  <div class="content-wrapper">
+  <header class="section-header" id="Web-Design-Pricing">
+    <h2>Web Design Pricing</h2>
+    <p class="section-description">Website development and maintenance services for authors and freelance writers</p>
+  </header>
+
+  <div class="cards">
+    <div class="card-pricing">
+      <!-- <img src="/assets/images/undraw_Landing_page_re_6xev.svg" class="card__logo"> -->
+      <h3 class="card__title">Starter Website</h3>
+      <p>Single-page author or book landing page.</p>
+      <p class="card__price">199 &#36;</p>
+      <ul class="card__list">
+        <li>Author bio section</li>
+        <li>Books section, for up to 3 books</li>
+        <li>Contact form section</li>
+        <li>Mobile optimised and responsive</li>
+        <li>SEO best-practices</li>
+        <li>Fast and secure</li>
+      </ul>
+      <div class="card__cta">
+        <a href="{{ site.baseurl }}/hire">Order Now</a>
+      </div>
+    </div>
+    <div class="card-pricing">
+      <h3 class="card__title">Standard Website</h3>
+      <p>Author website with all standard pages and features.</p>
+      <p class="card__price">399 &#36;</p>
+      <ul class="card__list">
+        <li>Home, Books, About and Contact pages</li>
+        <li>Newsletter sign-up form</li>
+        <li>Mobile optimised and responsive</li>
+        <li>SEO best-practices</li>
+        <li>Fast and secure</li>
+      </ul>
+      <div class="card__cta">
+        <a href="{{ site.baseurl }}/hire">Order Now</a>
+      </div>
+    </div>
+    <div class="card-pricing">
+      <h3 class="card__title">Author Platform</h3>
+      <p>Full author platform, with a Blog and Store</p>
+      <p class="card__price">499 &#36;</p>
+      <ul class="card__list">
+        <li>All from Standard Website</li>
+        <li>Blog</li>
+        <li>Online Store</li>
+        <li>Mobile optimised and responsive</li>
+        <li>SEO best-practices</li>
+        <li>Fast and secure</li>
+      </ul>
+      <div class="card__cta">
+        <a href="{{ site.baseurl }}/hire">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<!-- Hosting and Maintenance section -->
+<section class="section-pricing">
+  <div class="content-wrapper">
+    <header class="section-header" id="Hosting-Maintenance">
+      <h2>Hosting & Maintenance</h2>
+      <p class="section-description">Want a truly hands-off experience with maintaining your website after I’ve built it?</p>
+      <!-- <p>Does thinking about updating plugins, scheduling backups, attempting to update the CMS, finding suitable hosting provider give you nightmares? How about renewing SSL certificates so that search engines do not penalise your site?</p> -->
+    </header>
+    <div class="cards">
+      <div class="card-pricing">
+        <h3 class="card__title">Hosting</h3>
+        <p>Fast and secure hosting, with daily backups and a SSL certificate and CDN.</p>
+        <p class="card__price">25 &#36;/month</p>
+        <ul class="card__list">
+          <li>Hosting</li>
+          <li>Backups</li>
+          <li>SSL Certificate</li>
+          <li>Content Delivery Network (CDN)</li>
+          <li>Email Support</li>
+        </ul>
+        <div class="card__cta">
+          <a href="{{ site.baseurl }}/hire">Order Now</a>
+        </div>
+      </div>
+      <div class="card-pricing">
+        <h3 class="card__title">Hosting + Support</h3>
+        <p>Fast and secure hosting, with daily backups and a SSL certificate and CDN. PLUS 1 hour of support work per month.</p>
+        <p class="card__price">60 &#36;/month</p>
+        <ul class="card__list">
+          <li>Hosting</li>
+          <li>Backups</li>
+          <li>SSL Certificate</li>
+          <li>Content Delivery Network (CDN)</li>
+          <li>Email Support</li>
+          <li class="card__cta--emphasis">+1 hour Support work per month</li>
+        </ul>
+        <div class="card__cta">
+          <a href="{{ site.baseurl }}/hire">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section-cta">
+  <div class="content-wrapper">
+    <header class="section-header">
+      <h2>Ready for your new Author Platform?</h2>
+    </header>
+    <div class="wrapper__cta">
+      <p>Get in touch to discuss how best I can help you achieve your business goals with a new author website.</p>
+      <a href="{{ site.baseurl }}/hire" class="btn btn-cta">Contact Me</a>
+    </div>
+  </div>
+</section>

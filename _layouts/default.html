@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- Stylesheets -->
+    <link href="{{ site.baseurl }} /assets/css/sanitize.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header and Nav -->
+    {% include header.html %}
+
+    <!-- Main content -->
+    <main>
+      {{ content}}
+    </main>
+  
+    {% include footer.html %}
+
+  </body>
+</html>

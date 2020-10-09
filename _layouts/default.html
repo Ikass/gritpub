@@ -2,21 +2,15 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include header.html %}
     <!-- Stylesheets -->
     <link href="{{ site.baseurl }} /assets/css/sanitize.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    <!-- RSS feed -->
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    <!-- Sitemap -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   </head>
 
   <body>
     <!-- Header and Nav -->
-    {% include header.html %}
+    {% include nav.html %}
 
     <!-- Main content -->
     <main>

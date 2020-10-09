@@ -33,4 +33,15 @@
       <!-- Crisp live chat script -->
       <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="27be9e86-0337-4fed-8bda-6c86140f99d6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
+      <!-- Counter.dev tracking -->
+      <script> // counter.dev tracking code
+        if (!sessionStorage.getItem("_swa") && document.referrer.indexOf(location.protocol + "//" + location.host) !== 0) {
+            fetch("https://counter.dev/track?" + new URLSearchParams({
+                referrer: document.referrer,
+                screen: screen.width + "x" + screen.height,
+                user: "Reinis",
+                utcoffset: 0}));}
+        sessionStorage.setItem("_swa", "1");
+        </script>
+
   </footer>

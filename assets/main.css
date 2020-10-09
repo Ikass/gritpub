@@ -151,6 +151,10 @@ nav {
   font-family: var(--sans-serif);
 }
 
+.main-nav__logo {
+  margin-right: 16px;
+}
+
 .main-nav ul {
   display: flex;
   flex-shrink: 0;
@@ -160,6 +164,10 @@ nav {
   text-decoration: none;
   margin: 10px;
   font-weight: 500;
+}
+
+.main-nav__item:first-child {
+  margin-left: auto;
 }
 
 .main-nav__item:hover {

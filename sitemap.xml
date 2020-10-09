@@ -1,27 +1,24 @@
 ---
 layout: null
-search: exclude
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in site.pages %}
-  <url>
-    <loc>{{page.url}}</loc>
-    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {% if page.url contains '.xml' %}{% else %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  {% endif %}
   {% endfor %}
-
-  {% for post in site.posts %}
-  <url>
-    <loc>{{post.url}}</loc>
-    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {% for page in site.posts %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | replace: 'index.html', '' }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
   {% endfor %}
-
 </urlset>
+
+<!-- from jekyllcodex.org  -->

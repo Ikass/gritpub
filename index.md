@@ -8,7 +8,7 @@ title: "Web Design Services for Authors"
     <div class="content-wrapper hero hero__wallpaper">
       <img src="/assets/images/avatar-600.jpg" alt="Portrait of Ray" width="300px" height="300px">
       <header>
-        <h1>Hey, I'm Ray</h1>
+        <h1>Hey, I'm Reinis</h1>
         <p class="hero-subtitle">I create effective websites for authors, freelance writers and other solo business owners.</p>
         <p>I specialise in crafting websites that are aligned with your business goals. That are fast, secure, work well on any device and are accessible by anyone.</p>
         <p>Are you ready to build an effective author platform for your work or freelance services? Drop me a line and tell me more about your project.</p>

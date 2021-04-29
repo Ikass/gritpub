@@ -33,8 +33,8 @@
   --warm-grey-1000: hsl(42, 15%, 13%);
 
 /* Fonts */
---sans-serif: var(-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans');
---serif: var(Georgia, Cambria, 'Times New Roman', Times, serif);
+  --sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+  --serif: Georgia, Cambria, 'Times New Roman', Times, serif;
 }
 
 
@@ -130,7 +130,7 @@ section {
 }
 
 /****************************************************************
-  Header styling
+  Navigation styling
 ***************************************************************/
 
 nav {
@@ -140,51 +140,53 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 24px;
   background-color: var(--purple-100);
   font-size: 18px;
 }
 
-.main-nav * {
-  text-decoration: none;
-  color: var(--warm-grey-800);
+/* refactoring nav */
+
+nav > h2 {
+  padding: 0 24px;
+}
+
+/* add right padding to hamburger */
+nav > a {
+  padding: 0 24px;
+}
+
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 16px 24px;
+}
+
+nav li {
+  padding-right: 16px;
+  font-weight: 600;
   font-family: var(--sans-serif);
 }
 
-.main-nav__logo {
-  margin-right: 24px;
+nav li:last-of-type {
+  padding-right: 0;
 }
 
-.main-nav ul {
-  display: flex;
-  flex-shrink: 0;
-}
-
-.main-nav__item {
+nav a {
   text-decoration: none;
-  margin: 8px 16px;
-  font-weight: 500;
+  color: var(--warm-grey-800);
 }
 
-.main-nav__item:first-child {
-  margin-left: auto;
+.hire {
+  color: var(--purple-800);
 }
 
-.main-nav__item:hover {
+nav li a:hover {
+  color: var(--purple-800);
   border-bottom: 3px solid var(--purple-500);
   text-decoration: none;
 }
 
-.hire {
-  color: var(--warm-grey-100);
-  margin-left: 16px;
-}
-
-.hire:hover {
-  border-bottom: none;
-  text-decoration: none;
-  color: var(--warm-grey-100);
-}
 
 /****************************************************************
   Hero section

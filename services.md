@@ -13,7 +13,7 @@ permalink: /services/
       <p class="section-description">Website development and maintenance services for authors and freelance writers</p>
     </header>
 
-  <div class="section-feature">
+  <div class="section-feature section-top-border">
     <img src="/assets/images/undraw_growth_analytics_8btt.svg" alt="Effective websites">
     <article>
       <h3>Effective Websites</h3>
@@ -25,7 +25,7 @@ permalink: /services/
     </article>
   </div>
 
-  <div class="section-feature">
+  <div class="section-feature section-top-border">
     <article>
       <h3>Reader friendly</h3>
       <ul>
@@ -37,7 +37,7 @@ permalink: /services/
     <img src="/assets/images/undraw_Devices_re_dxae.svg" alt="Mobile and responsive website">
   </div>
 
-  <div class="section-feature">
+  <div class="section-feature section-top-border">
     <img src="/assets/images/undraw_fast_loading_0lbh.svg" alt="Fast loading websites">
     <article>
       <h3>Fast and Secure</h3>
@@ -60,55 +60,58 @@ permalink: /services/
     <p class="section-description">Website development and maintenance services for authors and freelance writers</p>
   </header>
 
-  <div class="cards">
-    <div class="card-pricing">
-      <!-- <img src="/assets/images/undraw_Landing_page_re_6xev.svg" class="card__logo"> -->
-      <h3 class="card__title">Starter Website</h3>
-      <p>Single-page author or book landing page.</p>
-      <p class="card__price">199 &#36;</p>
-      <ul class="card__list">
-        <li>Author bio section</li>
-        <li>Books section, for up to 3 books</li>
-        <li>Contact form section</li>
-        <li>Mobile optimised and responsive</li>
-        <li>SEO best-practices</li>
-        <li>Fast and secure</li>
-      </ul>
-      <div class="card__cta">
-        <a href="{{ site.baseurl }}/hire">Order Now</a>
-      </div>
+<div class="cards">
+
+  <div class="card-pricing">
+    <!-- <img src="/assets/images/undraw_Landing_page_re_6xev.svg" class="card__logo"> -->
+    <h3 class="card__title">Starter Website</h3>
+    <p>Single-page author or book landing page.</p>
+    <p class="card__price">199 &#36;</p>
+    <ul class="card__list">
+      <li>Author bio section</li>
+      <li>Books section, for up to 3 books</li>
+      <li>Contact form section</li>
+      <li>Mobile optimised and responsive</li>
+      <li>SEO best-practices</li>
+      <li>Fast and secure</li>
+    </ul>
+    <div class="card__cta">
+      <a href="{{ site.baseurl }}/hire">Order Now</a>
     </div>
-    <div class="card-pricing">
-      <h3 class="card__title">Standard Website</h3>
-      <p>Author website with all standard pages and features.</p>
-      <p class="card__price">399 &#36;</p>
-      <ul class="card__list">
-        <li>Home, Books, About and Contact pages</li>
-        <li>Newsletter sign-up form</li>
-        <li>Mobile optimised and responsive</li>
-        <li>SEO best-practices</li>
-        <li>Fast and secure</li>
-      </ul>
-      <div class="card__cta">
-        <a href="{{ site.baseurl }}/hire">Order Now</a>
-      </div>
+  </div>
+
+  <div class="card-pricing">
+    <h3 class="card__title">Standard Website</h3>
+    <p>Author website with all standard pages and features.</p>
+    <p class="card__price">399 &#36;</p>
+    <ul class="card__list">
+      <li>Home, Books, About and Contact pages</li>
+      <li>Newsletter sign-up form</li>
+      <li>Mobile optimised and responsive</li>
+      <li>SEO best-practices</li>
+      <li>Fast and secure</li>
+    </ul>
+    <div class="card__cta">
+      <a href="{{ site.baseurl }}/hire">Order Now</a>
     </div>
-    <div class="card-pricing">
-      <h3 class="card__title">Author Platform</h3>
-      <p>Full author platform, with a Blog and Store</p>
-      <p class="card__price">499 &#36;</p>
-      <ul class="card__list">
-        <li>All from Standard Website</li>
-        <li>Blog</li>
-        <li>Online Store</li>
-        <li>Mobile optimised and responsive</li>
-        <li>SEO best-practices</li>
-        <li>Fast and secure</li>
-      </ul>
-      <div class="card__cta">
-        <a href="{{ site.baseurl }}/hire">Order Now</a>
-      </div>
+  </div>
+  
+  <div class="card-pricing">
+    <h3 class="card__title">Author Platform</h3>
+    <p>Full author platform, with a Blog and Store</p>
+    <p class="card__price">499 &#36;</p>
+    <ul class="card__list">
+      <li>All from Standard Website</li>
+      <li>Blog</li>
+      <li>Online Store</li>
+      <li>Mobile optimised and responsive</li>
+      <li>SEO best-practices</li>
+      <li>Fast and secure</li>
+    </ul>
+    <div class="card__cta">
+      <a href="{{ site.baseurl }}/hire">Order Now</a>
     </div>
+  </div>
 
   </div>
   </div>

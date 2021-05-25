@@ -6,7 +6,7 @@ title: "Web Design Services for Authors"
 <!-- Hero section  -->
   <section class="section-hero">
     <div class="content-wrapper hero hero__wallpaper">
-      <img src="/assets/images/avatar-600.jpg" alt="Portrait of Ray" width="300px" height="300px">
+      <img src="/assets/images/avatar-600.jpg" alt="Portrait of Reinis" width="300px" height="300px">
       <header>
         <h1>Hey, I'm Reinis</h1>
         <p class="hero-subtitle">I create effective websites for authors, freelance writers and other solo business owners.</p>

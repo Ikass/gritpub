@@ -5,4 +5,6 @@ description: "Web Design Services for Authors"
 permalink: pretty
 
 collections:
-  - portfolio
+  portfolio:
+    output: true
+    permalink: /:collection/:name

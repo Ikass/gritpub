@@ -1,16 +1,16 @@
 ---
 layout: case-study
-title: Case Study - Author One-Page Website
-subtitle: An author one-page website template
-permalink: /portfolio/case-study-author-onepage/
+title: Case Study - Single Page Author Website
+subtitle: A single page author website template
+permalink: /portfolio/case-study-author-singlepage/
 ---
 <section>
 
   <!-- Need to refactor the cascade and classes, streamline -->
   <div class="content-wrapper">
     <header class="section-header">
-      <h2>Case Study: Author One-Page Website template</h2>
-      <h3 class="section-description">Designing a one-page author website template</h3>
+      <h2>Case Study: Single Page Author Website template</h2>
+      <h3 class="section-description">Designing a single page author website template</h3>
     </header>
 
   <div class="section-feature">
@@ -35,8 +35,8 @@ permalink: /portfolio/case-study-author-onepage/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-one-page-template-hero.png">
-        <img src="/assets/images/author-one-page-template-hero-thumb.png" alt="Author website hero section">
+      <a class="shadow image-grid-big" href="/assets/images/author-single-page-template-hero.png">
+        <img src="/assets/images/author-single-page-template-hero-thumb.png" alt="Author website hero section">
       </a>
     </div>
     <article>

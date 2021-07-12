@@ -104,7 +104,7 @@ permalink: /portfolio/case-study-author-standard/
       <h3>Mobile-Optimised and Responsive</h3>
       <p>The author one-page website template is <strong>fully responsive and mobile-optimised</strong> - looks and works great on any device - as nowadays most visitors browse websites on mobile devices.</p>
       <p>It also helps with <strong>search engine optimisation</strong>, as Google strongly prefers websites optimised for mobile viewing.</p>
-      <p>Visit the author standard website template: <a href="https://ikass.github.io/author-standard-template/">Author one-page website template</a></p>
+      <a href="https://ikass.github.io/author-standard-template/"><strong>Visit author standard website template live demo.</strong></a>
     </article>
   </div>
 

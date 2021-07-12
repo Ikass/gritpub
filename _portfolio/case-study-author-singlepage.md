@@ -15,8 +15,8 @@ permalink: /portfolio/case-study-author-singlepage/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-one-page-template-full.png">
-        <img src="/assets/images/author-one-page-template-full-thumb.png" alt="Author one-page website template">
+      <a class="shadow image-grid-big" href="/assets/images/author-single-page-template-full.png">
+        <img src="/assets/images/author-single-page-template-full-thumb.png" alt="Author one-page website template">
       </a>
     </div>
     <article>
@@ -48,8 +48,8 @@ permalink: /portfolio/case-study-author-singlepage/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-one-page-template-books.png">
-        <img src="/assets/images/author-one-page-template-books-thumb.png" alt="Author website books section">
+      <a class="shadow image-grid-big" href="/assets/images/author-single-page-template-books.png">
+        <img src="/assets/images/author-single-page-template-books-thumb.png" alt="Author website books section">
       </a>
     </div>
     <article>
@@ -62,8 +62,8 @@ permalink: /portfolio/case-study-author-singlepage/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-top" href="/assets/images/author-onepage-performance.png">
-        <img src="/assets/images/author-onepage-performance-thumb.png" alt="Author website performance">
+      <a class="shadow image-grid-top" href="/assets/images/author-singlepage-performance.png">
+        <img src="/assets/images/author-singlepage-performance-thumb.png" alt="Author website performance">
       </a>  
     </div>
     <article>
@@ -75,18 +75,18 @@ permalink: /portfolio/case-study-author-singlepage/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow" href="/assets/images/author-one-page-template-mobile-hero.png">
-        <img src="/assets/images/author-one-page-template-mobile-hero.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/author-single-page-mobile-feature.png">
+        <img src="/assets/images/author-single-page-mobile-feature.png" alt="Mobile optimised author website">
       </a>
-      <a class="shadow" href="/assets/images/author-one-page-template-mobile-book.png">
-        <img src="/assets/images/author-one-page-template-mobile-book.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/author-single-page-mobile-newsletter.png">
+        <img src="/assets/images/author-single-page-mobile-newsletter.png" alt="Mobile optimised author website">
       </a>
     </div>
     <article>
       <h3>Mobile-Optimised and Responsive</h3>
       <p>The author one-page website template is <strong>fully responsive and mobile-optimised</strong> - looks and works great on any device - as nowadays most visitors browse websites on mobile devices.</p>
       <p>It also helps with <strong>search engine optimisation</strong>, as Google strongly prefers websites optimised for mobile viewing.</p>
-      <p>Visit the author one-page website template: <a href="https://ikass.github.io/author-onepage-v1/">Author one-page website template</a></p>
+      <p>Visit the author single page website template: <a href="https://ikass.github.io/author-singlepage/">Single page author website template</a></p>
     </article>
   </div>
 

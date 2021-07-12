@@ -15,12 +15,12 @@ permalink: /portfolio/case-study-author-standard/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-one-page-template-full.png">
-        <img src="/assets/images/author-one-page-template-full-thumb.png" alt="Author one-page website template">
+      <a class="shadow image-grid-big" href="/assets/images/author-standard-full.png">
+        <img src="/assets/images/author-standard-full-thumb.png" alt="Author standard website template">
       </a>
     </div>
     <article>
-      <h3>Author One-Page Website template</h3>
+      <h3>Author Standard Website template</h3>
       <p>Building an author platform - even a simple one-page website - can feel overwhelming.</p>
       <p>What information and sections should it include, and in what order to be effective? And what can be left out?</p>
       <p>The answer boils down to the <strong>purpose of an author website</strong> - to sell books, get visitors to sign up for newsletter and connect with readers.</p>
@@ -35,8 +35,14 @@ permalink: /portfolio/case-study-author-standard/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-standard-hero.png">
-        <img src="/assets/images/author-standard-hero-thumb.png" alt="Author website hero section">
+      <a class="shadow image-grid-big" href="/assets/images/author-standard-about.png">
+        <img src="/assets/images/author-standard-about-thumb.png" alt="Author website hero section">
+      </a>
+      <a class="shadow image-grid-left" href="/assets/images/author-standard-contact.png">
+        <img src="/assets/images/author-standard-contact-thumb.png" alt="Clear call to action">
+      </a>
+      <a class="shadow image-grid-right" href="/assets/images/author-standard-newsletter.png">
+        <img src="/assets/images/author-standard-newsletter-thumb.png" alt="Website contact form">
       </a>
     </div>
     <article>
@@ -48,8 +54,14 @@ permalink: /portfolio/case-study-author-standard/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/author-one-page-template-books.png">
-        <img src="/assets/images/author-one-page-template-books-thumb.png" alt="Author website books section">
+      <a class="shadow image-grid-big" href="/assets/images/author-standard-hero.png">
+        <img src="/assets/images/author-standard-hero-thumb.png" alt="Author website hero section">
+      </a>
+      <a class="shadow image-grid-left" href="/assets/images/author-standard-booklist.png">
+        <img src="/assets/images/author-standard-booklist-thumb.png" alt="Clear call to action">
+      </a>
+      <a class="shadow image-grid-right" href="/assets/images/author-standard-books-featured.png">
+        <img src="/assets/images/author-standard-books-featured-thumb.png" alt="Website contact form">
       </a>
     </div>
     <article>
@@ -62,8 +74,8 @@ permalink: /portfolio/case-study-author-standard/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-top" href="/assets/images/author-onepage-performance.png">
-        <img src="/assets/images/author-onepage-performance-thumb.png" alt="Author website performance">
+      <a class="shadow image-grid-top" href="/assets/images/author-standard-performance.png">
+        <img src="/assets/images/author-standard-performance-thumb.png" alt="Author website performance">
       </a>  
     </div>
     <article>
@@ -75,18 +87,24 @@ permalink: /portfolio/case-study-author-standard/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow" href="/assets/images/author-one-page-template-mobile-hero.png">
-        <img src="/assets/images/author-one-page-template-mobile-hero.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/author-standard-mobile-books.png">
+        <img src="/assets/images/author-standard-mobile-books.png" alt="Mobile optimised author website">
       </a>
-      <a class="shadow" href="/assets/images/author-one-page-template-mobile-book.png">
-        <img src="/assets/images/author-one-page-template-mobile-book.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/author-standard-mobile-about.png">
+        <img src="/assets/images/author-standard-mobile-about.png" alt="Mobile optimised author website">
+      </a>
+      <a class="shadow" href="/assets/images/author-standard-mobile-newsletter.png">
+        <img src="/assets/images/author-standard-mobile-newsletter.png" alt="Mobile optimised author website">
+      </a>
+      <a class="shadow" href="/assets/images/author-standard-mobile-contact.png">
+        <img src="/assets/images/author-standard-mobile-contact.png" alt="Mobile optimised author website">
       </a>
     </div>
     <article>
       <h3>Mobile-Optimised and Responsive</h3>
       <p>The author one-page website template is <strong>fully responsive and mobile-optimised</strong> - looks and works great on any device - as nowadays most visitors browse websites on mobile devices.</p>
       <p>It also helps with <strong>search engine optimisation</strong>, as Google strongly prefers websites optimised for mobile viewing.</p>
-      <p>Visit the author one-page website template: <a href="https://ikass.github.io/author-onepage-v1/">Author one-page website template</a></p>
+      <p>Visit the author standard website template: <a href="https://ikass.github.io/author-standard-template/">Author one-page website template</a></p>
     </article>
   </div>
 

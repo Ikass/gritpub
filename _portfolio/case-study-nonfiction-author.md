@@ -19,7 +19,6 @@ permalink: /portfolio/case-study-nonfiction-author/
       <a class="shadow image-grid-big" href="/assets/images/nonfiction-author-full.png"> 
         <img src="/assets/images/nonfiction-author-full-thumb.png" alt="Nonfiction Author website template home page">
       </a>
-      </a>
     </div>
     <article>
       <h3>Non-Fiction Author Website template</h3>

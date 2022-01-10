@@ -16,7 +16,9 @@ permalink: /portfolio/case-study-nonfiction-author/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-big" href="/assets/images/nonfiction-author-full.png">ialt="Non-Fiction Author website template">
+      <a class="shadow image-grid-big" href="/assets/images/nonfiction-author-full.png"> 
+        <img src="/assets/images/nonfiction-author-full-thumb.png" alt="Nonfiction Author website template home page">
+      </a>
       </a>
     </div>
     <article>
@@ -66,13 +68,13 @@ permalink: /portfolio/case-study-nonfiction-author/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow image-grid-top" href="/assets/images/author-standard-performance.png">
-        <img src="/assets/images/author-standard-performance-thumb.png" alt="Author website performance">
+      <a class="shadow image-grid-top" href="/assets/images/nonfiction-author-performance.png">
+        <img src="/assets/images/nonfiction-author-performance-thumb.png" alt="Author website performance">
       </a>  
     </div>
     <article>
       <h3>Blazing Performance</h3>
-      <p>By using modern web development approach the website achieves <strong>a perfect 100% performance score</strong>. The author website loads in less than 2 seconds.</p>
+      <p>By using modern web development approach the website achieves <strong>a perfect 100% performance score</strong>. The nonfiction author website loads in less than 2 seconds.</p>
       <p>Performance and security were improved by choosing modern technologies that don't rely on various 3rd party plugins for essential functions and introducing unnecessary security and maintenance risks.</p>
     </article>
   </div>
@@ -94,9 +96,9 @@ permalink: /portfolio/case-study-nonfiction-author/
     </div>
     <article>
       <h3>Mobile-Optimised and Responsive</h3>
-      <p>The author one-page website template is <strong>fully responsive and mobile-optimised</strong> - looks and works great on any device - as nowadays most visitors browse websites on mobile devices.</p>
+      <p>The non-fiction author website template is <strong>fully responsive and mobile-optimised</strong> - looks and works great on any device - as nowadays most visitors browse websites on mobile devices.</p>
       <p>It also helps with <strong>search engine optimisation</strong>, as Google strongly prefers websites optimised for mobile viewing.</p>
-      <a href="https://ikass.github.io/author-standard-template/"><strong>Visit author standard website template live demo.</strong></a>
+      <a href="https://non-fiction-author.netlify.app/"><strong>Visit nonfiction author website template live demo.</strong></a>
     </article>
   </div>
 

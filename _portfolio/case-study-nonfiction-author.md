@@ -80,17 +80,11 @@ permalink: /portfolio/case-study-nonfiction-author/
 
   <div class="section-feature">
     <div class="image-grid">
-      <a class="shadow" href="/assets/images/author-standard-mobile-books.png">
-        <img src="/assets/images/author-standard-mobile-books.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/nonfiction-author-mobile.png">
+        <img src="/assets/images/nonfiction-author-mobile.png" alt="Mobile optimised nonfiction author website">
       </a>
-      <a class="shadow" href="/assets/images/author-standard-mobile-about.png">
-        <img src="/assets/images/author-standard-mobile-about.png" alt="Mobile optimised author website">
-      </a>
-      <a class="shadow" href="/assets/images/author-standard-mobile-newsletter.png">
-        <img src="/assets/images/author-standard-mobile-newsletter.png" alt="Mobile optimised author website">
-      </a>
-      <a class="shadow" href="/assets/images/author-standard-mobile-contact.png">
-        <img src="/assets/images/author-standard-mobile-contact.png" alt="Mobile optimised author website">
+      <a class="shadow" href="/assets/images/nonfiction-author-book-mobile.png">
+        <img src="/assets/images/nonfiction-author-book-mobile.png" alt="Mobile optimised nonfiction author website">
       </a>
     </div>
     <article>

@@ -1,0 +1,28 @@
+---
+title: Blog
+description: Latest blog posts
+layout: default
+permalink: /posts/
+#eleventyNavigation:
+#  key: Posts
+#  order: 4
+---
+<div class="px-4 py-12 my-4 sm:px-6 lg:py-16 lg:px-8">
+  <div class="container mx-auto max-w-7xl">
+    <!-- header -->
+    <div class="text-center">
+      <h2
+        class="text-3xl font-extrabold tracking-tight text-zinc-800 sm:text-4xl">
+        From the blog
+      </h2>
+      <p class="max-w-2xl mx-auto mt-3 text-xl text-zinc-600 sm:mt-4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero
+        labore natus atque, ducimus sed.
+      </p>
+    </div>
+
+    {% set postslist = collections.posts %}
+    {% include "partials/postslist.njk" %}
+    
+  </div>
+</div>

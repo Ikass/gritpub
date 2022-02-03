@@ -26,7 +26,10 @@
 
     <!-- image -->
     <div class="w-full max-w-sm mx-auto mt-8 md:max-w-md lg:mt-0">
-      <img class="w-full rounded-full shadow-md" src="/assets/img/avatar.jpg" alt="">
+      {# <img class="w-full rounded-full shadow-md" src="/assets/img/avatar.jpg" alt=""> #}
+      <div class="object-cover w-full overflow-hidden rounded-full shadow-md">
+        {% image "avatar.jpg", "" %}
+      </div>
     </div>
   
     </div>

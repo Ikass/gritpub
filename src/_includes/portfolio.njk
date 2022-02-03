@@ -35,14 +35,14 @@
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="{{ portfolio.url }}" class="flex items-center justify-center w-full px-6 py-3 font-medium text-white border border-transparent rounded-md bg-violet-700 hover:bg-violet-700 sm:w-auto">
+              <a href="{{ portfolio.url }}" class="flex items-center justify-center w-full px-6 py-3 font-medium text-white border border-transparent rounded-md bg-violet-700 hover:bg-violet-600 sm:w-auto">
                 Learn more
               </a>
             </div>
           </div>
         </div>
           <div class="relative mt-10 -mx-4 lg:mt-0" aria-hidden="true">
-          <img class="relative mx-auto" width="490" src="{{ portfolio.data.image }}" alt="">
+          <img class="relative mx-auto rounded-lg shadow-lg" width="490" src="{{ portfolio.data.image }}" alt="">
         </div>
       </div>
       {% endfor %}

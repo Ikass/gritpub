@@ -4,7 +4,9 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
-
+_site/
+.DS_Store
+node_modules/
 
 ### VSC ###
 gritpub.code-workspace

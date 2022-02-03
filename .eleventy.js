@@ -36,7 +36,6 @@ const isUrl = (str) => {
       sizes,
       loading: 'lazy',
       decoding: 'async',
-      class: 'rounded-lg shadow-xl',
     })
 
     return `<figure>${markup}<figcaption>${alt}</figcaption></figure>`

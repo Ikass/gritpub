@@ -1,0 +1,22 @@
+{% extends 'default.njk' %}
+
+{% block body %}
+
+  <!-- case-study header -->
+  <header class="mx-auto">
+    <div class="px-4 py-8 mx-auto text-center max-w-7xl sm:pt-20 sm:px-6 lg:px-8">
+      <p class="font-semibold tracking-wide uppercase text-violet-600">Case Study</p>
+      <h1 class="mt-2 text-3xl font-extrabold text-zinc-900 sm:text-4xl sm:tracking-tight lg:text-5xl">{{title}}</h1>
+      <p class="max-w-xl mx-auto mt-5 text-xl text-zinc-600">{{description}}</p>
+    </div>
+  </header>
+
+  <article class="container px-4 pb-16 mx-auto prose sm:px-6 lg:px-8 lg:prose-xl text-zinc-800 prose-a:text-violet-700 hover:prose-a:text-violet-600 hover:prose-a:decoration-2 hover:prose-a:bg-violet-100">
+    <div class="">
+      {{ content | safe }}
+    </div>
+  </article>
+  
+  <section id="cta"> {% include 'partials/cta.njk' %} </section>
+
+{% endblock %}`

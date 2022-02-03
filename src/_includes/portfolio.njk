@@ -1,0 +1,53 @@
+{% extends 'default.njk' %}
+
+{% block body %}    
+
+<!-- Portfolio header -->
+<header id="portfolio" class="mx-auto">
+  <div class="pt-8">
+    <div class="px-4 py-8 mx-auto max-w-7xl sm:pt-20 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-base font-semibold tracking-wide uppercase text-violet-600">Case Studies</h2>
+        <p class="mt-1 text-4xl font-extrabold text-zinc-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+          My Recent Projects.</p>
+        <p class="max-w-xl mx-auto mt-5 text-xl text-zinc-600">Website development and maintenance services for authors, freelancers and solo entrepreneurs.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Case Studies section-->
+<section class="mx-auto">
+  <div class="pb-20 overflow-hidden">
+    <div class="relative max-w-xl px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-7xl">
+ 
+   {% for portfolio in collections.portfolio | reverse %}
+
+      <!-- Case Study template -->
+      <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div class="relative">
+          <p class="my-2 text-sm font-medium text-violet-600">Case Study</p>
+          <h3 class="text-2xl font-extrabold tracking-tight text-zinc-900 sm:text-3xl">
+            {{ portfolio.data.title | safe }}
+          </h3>
+          <p class="mt-3 text-lg text-zinc-600">
+            {{ portfolio.data.description | safe }}
+          </p>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="{{ portfolio.url }}" class="flex items-center justify-center w-full px-6 py-3 font-medium text-white border border-transparent rounded-md bg-violet-700 hover:bg-violet-700 sm:w-auto">
+                Learn more
+              </a>
+            </div>
+          </div>
+        </div>
+          <div class="relative mt-10 -mx-4 lg:mt-0" aria-hidden="true">
+          <img class="relative mx-auto" width="490" src="{{ portfolio.data.image }}" alt="">
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

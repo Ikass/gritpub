@@ -1,0 +1,22 @@
+---
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+{% set title = 'Home' %}
+{% extends "default.njk" %}
+
+{% block body %}
+
+<section id="hero" class="px-4 mx-auto my-8 max-w-7xl sm:mt-24 sm:px-6 lg:mt-32">
+  {% include 'partials/home/hero.njk' %}
+</section>
+
+{# <section id="logos">{% include 'partials/logos.njk' %}</section> #}
+
+<section id="services">{% include 'partials/home/services.njk' %}</section>
+
+<section id="cta">{% include 'partials/cta.njk' %}</section>
+
+{% endblock %}

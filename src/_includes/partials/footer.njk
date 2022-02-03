@@ -1,0 +1,20 @@
+<footer class="bottom-0 w-full bg-zinc-800">
+  <div class="px-4 pt-12 pb-6 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
+  
+    <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
+
+    {%- for entry in collections.all | eleventyNavigation %}
+      <div class="px-5 py-2">
+        <a href="{{ entry.url | url }}" class="text-base text-zinc-300 hover:text-zinc-50">
+           {{ entry.title }}
+        </a>
+      </div>
+    {% endfor %}
+    </nav>
+
+    <p class="mt-8 text-base text-center text-zinc-400">
+      &copy; 2021 <a href="https://www.grittypublishing.com" class="hover:underline hover:text-zinc-300">Gritty Publishing</a>. All rights reserved.
+    </p>
+
+  </div>
+</footer>

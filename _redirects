@@ -1,0 +1,6 @@
+# Redirect with a 301
+/portfolio/case-study-laba-skana/         /portfolio/laba-skana/              301
+/portfolio/case-study-author-onepage/   /portfolio/author-onepage/  301
+/portfolio/case-study-author-singlepage/    /portfolio/author-singlepage/   301
+/portfolio/case-study-author-standard/  /portfolio/author-standard/ 301
+/portfolio/case-study-nonfiction-author/    /portfolio/nonfiction-author/   301

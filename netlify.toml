@@ -1,20 +1,3 @@
 [build]
   publish = "_site"
   command = "npm run build"
-
-[redirects]]
-  from = "/portfolio/case-study-laba-skana/"
-  to = "/portfolio/laba-skana/"
-  status = 301
-  from = "/portfolio/case-study-author-onepage/"
-  to = "/portfolio/author-onepage/"
-  status = 301
-  from = "/portfolio/case-study-author-singlepage/"
-  to = "/portfolio/author-singlepage/"
-  status = 301
-  from = "/portfolio/case-study-author-standard/"
-  to = "/portfolio/author-standard/"
-  status = 301
-  from = "/portfolio/case-study-nonfiction-author/"
-  to = "/portfolio/nonfiction-author/"
-  status = 301
